@@ -2,51 +2,44 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>xxd</title>
-    <link href="http://lib.sinaapp.com/js/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <title>XXD 工作室</title>
+    <meta name="description" content="XXD 工作室，二维码助手。">
+    <link rel="stylesheet" href="normalize.css">
     <style>
-        .container {
-            margin-top: 100px;
+        body {
+            background-color: #fff;
         }
-
-        .link {
-            display: inline-block;
-            width: 149px;
-            height: 50px;
+        .apps {
+            text-align: center;
+            background-color: #222222;
+            border-color: #080808;
             color: #fff;
-            font: 0/0 'aaa';
+            padding: 300px 0 30px;
+            font-size: 30px;
         }
-
-        .link.node {
-            background-image: url(http://www.xxd.cn/logo-node.png);
-        }
-
-        .link.grunt {
-            background-image: url(http://www.xxd.cn/logo-grunt.png);
-        }
-
-        .none {
-            color: #fff;
-        }
-        .none:hover {
-            color: #fff;
+        .download {
+            text-align: center;
+            padding: 80px 0 80px;
         }
     </style>
 </head>
 <body>
-<div class="container">
-    <div class="list-group col-md-6">
-        <a class="link node" href="http://nodejs.cn/">Node.js 中文网</a>
-        <a class="list-group-item" target="_blank" href="http://nodejs.cn/">Node.js 中文网</a>
-    </div>
-    <div class="list-group col-md-6">
-        <a class="link grunt" href="http://gruntjs.cn/">Grunt 中文网</a>
-        <a class="list-group-item" target="_blank" href="http://gruntjs.cn/">Grunt 中文网</a>
-    </div>
-    <div>
-        <a class="none" target="_blank" href="http://lesscss.cn/">LessCSS 中文网</a>
-        <a class="none" target="_blank" href="http://momentjs.cn/">Moment.js 中文网</a>
-    </div>
+
+<div class="apps">
+    <img src="icon.png" width="150" height="150">
+    <div>二维码助手</div>
 </div>
+<div class="download">
+    <a href="https://play.google.com/store/apps/details?id=cn.xxd.qr" target="_blank">
+        <img src="play_logo_x2.png">
+    </a>
+</div>
+<div class="links">
+    <a href="http://nodejs.cn" style="color: #fff;">NodeJS</a>
+    <a href="http://gruntjs.cn" style="color: #fff;">Grunt</a>
+    <a href="http://lesscss.cn" style="color: #fff;">LessCSS</a>
+    <a href="http://momentjs.cn" style="color: #fff;">Momentjs</a>
+</div>
+
 </body>
 </html>
